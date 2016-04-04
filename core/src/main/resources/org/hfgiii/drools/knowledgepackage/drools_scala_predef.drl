@@ -1,0 +1,7 @@
+import scala.Option
+
+global scala.None$ None
+
+function void println(String message) {
+  System.out.println(message);
+}
